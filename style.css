@@ -1,0 +1,172 @@
+body{
+    background-image: url(pinksksks.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+  
+  #hahaha{
+    text-align: right;
+  }
+  
+  nav{
+    background-color: rgb(255, 127, 170);
+  }
+  #offcanvasDarkNavbar{
+    background-color: rgb(231, 196, 255);
+  }
+  
+  #home1, #contact1, #skills1, #projects1, #gallery1, #about1, #nama{
+    color: black;
+  }
+  
+  #about1:hover{
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  #home1:hover{
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  #projects1:hover{
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  #skills1:hover{
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  #gallery1:hover{
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  #contact1:hover{
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  #nama:hover{
+    color: blue;
+    text-decoration: underline;
+  }
+#id1, #id2, #id3, #id4, #id5{
+    color: white;
+    font-size: 15px;
+}
+
+#name{
+    color: white;
+}
+
+.card:hover{
+    box-shadow: 0px 5px 20px rgb(255, 35, 75);
+}
+
+#containernumberdui{
+    padding: 20px;
+}
+
+.container{
+    padding: 10px;
+}
+
+footer{
+    width: 100%;
+    height: 25px;
+    background-color: gainsboro;
+    color: black;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    left: 0rem;
+    bottom: 0rem;
+}
+
+footer p{
+    margin: 10px 0px;
+    font-weight: lighter;
+    font-size: small;
+}
+
+#nameee{
+    color: black;
+    font-family: "Parisienne", cursive;
+    font-weight: 800;
+    font-style: normal;
+}
+
+#herozz{
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#containernumberek{
+ padding: 20px 20px;
+ margin: 10px 10px;
+}
+
+#container-view{
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+#meme{
+    box-shadow: 0px 5px 20px  rgb(0, 0, 0);
+}
+
+#aboutme_1{
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#h22{
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#buttonek{
+  margin: 10px 10px;
+}
+
+#buttondui{
+  margin: 10px 10px;
+}
+
+.cta-buttons{
+  justify-content: center;
+}
+
+.social-links {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #2c3e50;
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: translateY(3px);
+  background-color: #3498db;
+}
