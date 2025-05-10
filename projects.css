@@ -2,12 +2,7 @@
     box-shadow: 0px 5px 20px rgb(255, 255, 255);
 }
 
-#body2{
-  background-image: url(pinksksks.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
+
 
 #contanar{
     padding: 20px 15px;
@@ -23,6 +18,7 @@
   
   nav{
     background-color: rgb(255, 127, 170);
+    box-shadow: 0px 2px 15px black;
   }
   #offcanvasDarkNavbar{
     background-color: rgb(231, 196, 255);
@@ -96,4 +92,40 @@
   text-align: center;
   font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
+}
+
+.card-title{
+  text-align: center;
+}
+
+.card-text{
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(
+      135deg,
+      #1a1a1a,
+      #0d0d0d,
+      #1f1f1f,
+      #0a0a0a,
+      #1c1c1c
+  );
+  background-size: 400% 400%;
+  animation: metallicLook 3.7s ease-in-out infinite;
+  color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes metallicLook {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }

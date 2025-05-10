@@ -1,10 +1,33 @@
-body{
-    background-image: url(pinksksks.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-
+body {
+  background: linear-gradient(
+      135deg,
+      #1a1a1a,
+      #0d0d0d,
+      #1f1f1f,
+      #0a0a0a,
+      #1c1c1c
+  );
+  background-size: 400% 400%;
+  animation: metallicLook 3.7s ease-in-out infinite;
+  color: #f5f5f5;
+  margin: 0;
+  padding: 0;
 }
+
+@keyframes metallicLook {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
 
   
   #hahaha{
@@ -12,14 +35,15 @@ body{
   }
   
   nav{
-    background-color: rgb(255, 127, 170);
+    background-color: #590015;
+    box-shadow: 0px 2px 15px black;
   }
   #offcanvasDarkNavbar{
     background-color: rgb(231, 196, 255);
   }
   
   #home1, #contact1, #skills1, #projects1, #gallery1, #about1, #nama{
-    color: black;
+    color: #d3af37;
   }
   
   #about1:hover{
@@ -97,16 +121,23 @@ footer p{
 }
 
 #nameee{
-    color: black;
-    font-family: "Parisienne", cursive;
-    font-weight: 800;
-    font-style: normal;
+    font-family: "Amarante", serif;
+  font-weight: 400;
+  font-style: normal;
+    color: #ffffff;
 }
 
 #herozz{
-  font-family: "DM Serif Display", serif;
-  font-weight: 400;
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
   font-style: normal;
+  color: #ffffff;
+  text-shadow:
+    0 0 5px #8b8241,
+    0 0 10px #a79100,
+    0 0 20px #ffa600,
+    0 0 40px #614611;
+    text-align: center;
 }
 
 #containernumberek{
@@ -124,29 +155,55 @@ footer p{
 }
 
 #aboutme_1{
-  font-family: "DM Serif Display", serif;
-  font-weight: 400;
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
   font-style: normal;
+  color: #ffffff;
+    text-shadow:
+    0 0 5px #8b8241,
+    0 0 10px #a79100,
+    0 0 20px #ffa600,
+    0 0 40px #614611;
+    text-align: center;
 }
 
 #h22{
-  font-family: "DM Serif Display", serif;
-  font-weight: 400;
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
   font-style: normal;
+  color: #ffffff;
+    text-shadow:
+    0 0 5px #8b8241,
+    0 0 10px #a79100,
+    0 0 20px #ffa600,
+    0 0 40px #614611;
+    text-align: center;
 }
 
 #buttonek{
   margin: 10px 10px;
+  background-color: #590015;
+  color: #d3af37;
 }
 
 #buttondui{
   margin: 10px 10px;
+  background-color: #590015;
+  color: #d3af37;
+}
+
+#buttonek:hover{
+  color: white;
+  background-color: #742638;
+}
+#buttondui:hover{
+  background-color: #742638;
+  color: white;
 }
 
 .cta-buttons{
-  justify-content: center;
+  text-align: center;
 }
-
 .social-links {
   display: flex;
   margin-top: 2rem;
@@ -159,7 +216,7 @@ footer p{
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #2c3e50;
+  background-color: #5d002a;
   color: white;
   margin-right: 15px;
   text-decoration: none;
@@ -167,6 +224,7 @@ footer p{
 }
 
 .social-links a:hover {
-  transform: translateY(3px);
-  background-color: #3498db;
+  transform: translateY(18px);
+  background-color: #8f1313;
 }
+

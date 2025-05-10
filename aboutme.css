@@ -7,7 +7,8 @@
   }
   
   nav{
-    background-color: rgb(255, 127, 170);
+    box-shadow: 0px 2px 15px black;
+    background-color: #590015;
   }
   #offcanvasDarkNavbar{
     background-color: rgb(231, 196, 255);
@@ -54,25 +55,29 @@
 
   #aboutmepara{
     text-align: center;
-    font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
+    font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+    font-size: 18px;
+    color: #d3af37;
       
   }
 
-  body{
-    background-image: url(pinksksks.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-
-}
 
 h1{
-    font-family: "Bebas Neue", sans-serif;
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
     font-weight: 400;
     font-style: normal;
     text-align: center;
     font-size: 80px;
+        text-shadow:
+    0 0 5px #8b8241,
+    0 0 10px #a79100,
+    0 0 20px #ffa600,
+    0 0 40px #614611;
+    text-align: center;
 }
 
 footer{
@@ -88,8 +93,32 @@ footer{
     bottom: 0rem;
 }
 
-#para2{
-  text-align: center;
-  font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
+body {
+  background: linear-gradient(
+      135deg,
+      #1a1a1a,
+      #0d0d0d,
+      #1f1f1f,
+      #0a0a0a,
+      #1c1c1c
+  );
+  background-size: 400% 400%;
+  animation: metallicLook 3.7s ease-in-out infinite;
+  color: #f5f5f5;
+  margin: 0;
+  padding: 0;
 }
+
+@keyframes metallicLook {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
