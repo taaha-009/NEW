@@ -15,8 +15,8 @@
     }
     
     nav{
-      background-color: #f5f5dce1;
-      box-shadow: 0px 4px 65px #9e001d;
+      background-color: #5d002a;
+      box-shadow: 0px 4px 65px #000000;
       position: sticky;
       top: 0;
       z-index: 1000;
@@ -26,7 +26,14 @@
     }
     
     #home1, #contact1, #skills1, #projects1, #gallery1, #about1, #nama{
-      color: black;
+        text-align: center;
+  text-shadow:
+    0 0 5px #8b8241,
+    0 0 10px #a79100,
+    0 0 20px #ffa600,
+    0 0 40px #614611;
+  font-family: "JetBrains Mono", monospace;
+  color: black;
     }
     
     #about1:hover{
@@ -63,13 +70,22 @@
       color: blue;
       text-decoration: underline;
     }
+
+    #nama{
+      color: #ffbc41;
+    }
   
   #carouselhead{
     font-family: "Space Mono", monospace;
     font-weight: 700;
     font-style: normal;
-    color: crimson;
+    color: rgb(255, 255, 255);
     text-align: center;
+      text-shadow:
+    0 0 5px #8b8241,
+    0 0 10px #a79100,
+    0 0 20px #ffa600,
+    0 0 40px #614611;
   }
   
   footer{
@@ -101,7 +117,12 @@
     font-optical-sizing: auto;
     font-weight: bold;
     font-style: normal;
-    color: pink;
+    color: rgb(255, 255, 255);
+      text-shadow:
+    0 0 5px #8b8241,
+    0 0 10px #a79100,
+    0 0 20px #ffa600,
+    0 0 40px #614611;
   }
   
   footer{

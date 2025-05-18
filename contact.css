@@ -1,21 +1,32 @@
 #contact_me_1{
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
+    color: white;
     text-align: center;
+    
 }
 
 
 #contact_me_1{
-   color: black;
+   color: rgb(255, 255, 255);
+       text-shadow:
+    0 0 5px #8b8241,
+    0 0 10px #a79100,
+    0 0 20px #ffa600,
+    0 0 40px #614611;
 }
 
 #head{
-    text-align: center;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-    font-size: 80px;
+    font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 80px;
+      text-shadow:
+    0 0 5px #8b8241,
+    0 0 10px #a79100,
+    0 0 20px #ffa600,
+    0 0 40px #614611;
 }
 
 #one, #two, #three, #four, #five, #six{
@@ -27,7 +38,7 @@
   }
   
   nav{
-    background-color: rgb(255, 127, 170);
+    background-color: #5d002a;
     box-shadow: 0px 2px 15px black;
   }
   #offcanvasDarkNavbar{
@@ -35,7 +46,14 @@
   }
   
   #home1, #contact1, #skills1, #projects1, #gallery1, #about1, #nama{
-    color: black;
+      text-align: center;
+  text-shadow:
+    0 0 5px #8b8241,
+    0 0 10px #a79100,
+    0 0 20px #ffa600,
+    0 0 40px #614611;
+  font-family: "JetBrains Mono", monospace;
+  color: black;
   }
   
   #about1:hover{
